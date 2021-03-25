@@ -1,4 +1,8 @@
 // helloWorld function 
-function helloWorld() {
+const helloWorld = function() {
     return "Hello, World!";
+}
+
+// sayHello function
+function sayHello() {
 }
