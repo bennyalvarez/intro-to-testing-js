@@ -10,3 +10,11 @@ function sayHello(x) {
     }
     return 'Hello, World!';
 }
+
+// isFive function
+
+function isFive(x) {
+        return x == 5;
+}
+
+//isEven function
