@@ -142,4 +142,7 @@ describe('add' , function() {
     it('add(2, "apples") returns NaN' , function() {
         expect(add(2,"apples")).toBe(NaN);
     });
+    it('add() returns NaN' , function() {
+        expect(add()).toBe(NaN);
+    });
 });

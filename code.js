@@ -37,13 +37,20 @@ function isVowel(string) {
 
 // add function
 
-function add(x,y) {
-    if (isNaN(x) || isNaN(y)) {
-        return NaN;
-    } else {
+//function add(x,y) {
+//    if (isNaN(x) || isNaN(y)) {
+//        return NaN;
+//    } else {
+//        return parseFloat(x) + parseFloat(y);
+//    }
+//}
+
+function add(x, y) {
+    if(!isNaN(parseFloat(x)) && !isNaN(parseFloat(y))) {
         return parseFloat(x) + parseFloat(y);
+    } else {
+        return NaN;
     }
 }
-
 
 
