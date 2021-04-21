@@ -17,4 +17,8 @@ function isFive(x) {
         return x == 5;
 }
 
-//isEven function
+
+function isEven(input) {
+    return parseFloat(input) % 2 === 0;
+}
+
